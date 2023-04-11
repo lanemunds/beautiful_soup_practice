@@ -12,3 +12,6 @@ print(section_heading)
 
 company_url = soup.select_one(selector='p a')
 print(company_url)
+
+headings = soup.select('.heading')
+print(headings)
