@@ -12,6 +12,7 @@ list_box = topTen.find(name='div', class_='list_box')
 
 top = top_ten.find(name='h4')
 list_text = list_box.text
-
+list_link = list_box.get('href')
 head = soup.select_one(selector='div h4')
 print(list_text)
+print(list_link)
